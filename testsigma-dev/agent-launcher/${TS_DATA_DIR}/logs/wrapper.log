@@ -1,0 +1,84 @@
+2023-06-16 12:20:46 INFO  Application:start:29 - main - -------------------- Testsigma Agent - START -------------------
+2023-06-16 12:20:46 INFO  Application:start:33 - main - Lock File Location: C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\lock
+2023-06-16 12:20:46 INFO  Application:start:34 - main - PID File Location: C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\process.pid
+2023-06-16 12:20:46 ERROR Application:start:59 - main - C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\lock (The system cannot find the path specified)
+java.io.FileNotFoundException: C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\lock (The system cannot find the path specified)
+	at java.io.RandomAccessFile.open0(Native Method) ~[?:?]
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:346) ~[?:?]
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:260) ~[?:?]
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:214) ~[?:?]
+	at com.testsigma.agent.launcher.Application.start(Application.java:35) [classes/:?]
+	at com.testsigma.agent.launcher.Application.main(Application.java:23) [classes/:?]
+2023-06-16 12:20:46 INFO  Application:start:61 - main - -------------------- Testsigma Agent - STOPPED -------------------
+2023-06-16 12:24:15 INFO  Application:start:29 - main - -------------------- Testsigma Agent - START -------------------
+2023-06-16 12:24:15 INFO  Application:start:33 - main - Lock File Location: C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\lock
+2023-06-16 12:24:15 INFO  Application:start:34 - main - PID File Location: C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\process.pid
+2023-06-16 12:24:15 ERROR Application:start:59 - main - C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\lock (Access is denied)
+java.io.FileNotFoundException: C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\lock (Access is denied)
+	at java.io.RandomAccessFile.open0(Native Method) ~[?:?]
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:346) ~[?:?]
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:260) ~[?:?]
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:214) ~[?:?]
+	at com.testsigma.agent.launcher.Application.start(Application.java:35) [classes/:?]
+	at com.testsigma.agent.launcher.Application.main(Application.java:23) [classes/:?]
+2023-06-16 12:24:15 INFO  Application:start:61 - main - -------------------- Testsigma Agent - STOPPED -------------------
+2023-06-16 12:27:06 INFO  Application:start:29 - main - -------------------- Testsigma Agent - START -------------------
+2023-06-16 12:27:06 INFO  Application:start:33 - main - Lock File Location: C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\lock
+2023-06-16 12:27:06 INFO  Application:start:34 - main - PID File Location: C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\process.pid
+2023-06-16 12:27:06 ERROR Application:start:59 - main - C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\lock (Access is denied)
+java.io.FileNotFoundException: C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\lock (Access is denied)
+	at java.io.RandomAccessFile.open0(Native Method) ~[?:?]
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:346) ~[?:?]
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:260) ~[?:?]
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:214) ~[?:?]
+	at com.testsigma.agent.launcher.Application.start(Application.java:35) [classes/:?]
+	at com.testsigma.agent.launcher.Application.main(Application.java:23) [classes/:?]
+2023-06-16 12:27:06 INFO  Application:start:61 - main - -------------------- Testsigma Agent - STOPPED -------------------
+2023-06-16 12:30:16 INFO  Application:start:29 - main - -------------------- Testsigma Agent - START -------------------
+2023-06-16 12:30:16 INFO  Application:start:33 - main - Lock File Location: C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\lock.txt
+2023-06-16 12:30:16 INFO  Application:start:34 - main - PID File Location: C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\process.pid
+2023-06-16 12:30:16 DEBUG Application:removePidFile:79 - TestsigmaAgentWrapper - Testsigma Agent Main PID File Doesn't Exists - C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\process.pid
+2023-06-16 12:30:16 INFO  Application:createPidFile:68 - TestsigmaAgentWrapper - Testsigma Agent Main PID - 10348
+2023-06-16 12:38:10 INFO  Application:start:29 - main - -------------------- Testsigma Agent - START -------------------
+2023-06-16 12:38:10 INFO  Application:start:33 - main - Lock File Location: C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\lock.txt
+2023-06-16 12:38:10 INFO  Application:start:34 - main - PID File Location: C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\process.pid
+2023-06-16 12:38:10 DEBUG Application:removePidFile:75 - TestsigmaAgentWrapper - Testsigma Agent Main PID File Exists - C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\process.pid
+2023-06-16 12:38:10 DEBUG Application:removePidFile:77 - TestsigmaAgentWrapper - Testsigma Agent Main PID File C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\process.pid Deleted - true
+2023-06-16 12:38:10 INFO  Application:createPidFile:68 - TestsigmaAgentWrapper - Testsigma Agent Main PID - 6404
+2023-06-16 12:39:49 INFO  Application:start:29 - main - -------------------- Testsigma Agent - START -------------------
+2023-06-16 12:39:49 INFO  Application:start:33 - main - Lock File Location: C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\lock.txt
+2023-06-16 12:39:49 INFO  Application:start:34 - main - PID File Location: C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\process.pid
+2023-06-16 12:39:49 DEBUG Application:removePidFile:75 - TestsigmaAgentWrapper - Testsigma Agent Main PID File Exists - C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\process.pid
+2023-06-16 12:39:49 DEBUG Application:removePidFile:77 - TestsigmaAgentWrapper - Testsigma Agent Main PID File C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\process.pid Deleted - true
+2023-06-16 12:39:49 INFO  Application:createPidFile:68 - TestsigmaAgentWrapper - Testsigma Agent Main PID - 15584
+2023-06-16 12:41:05 INFO  Application:start:29 - main - -------------------- Testsigma Agent - START -------------------
+2023-06-16 12:41:05 INFO  Application:start:33 - main - Lock File Location: C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\lock.txt
+2023-06-16 12:41:05 INFO  Application:start:34 - main - PID File Location: C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\process.pid
+2023-06-16 12:41:05 DEBUG Application:removePidFile:75 - TestsigmaAgentWrapper - Testsigma Agent Main PID File Exists - C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\process.pid
+2023-06-16 12:41:05 DEBUG Application:removePidFile:77 - TestsigmaAgentWrapper - Testsigma Agent Main PID File C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\process.pid Deleted - true
+2023-06-16 12:41:05 INFO  Application:createPidFile:68 - TestsigmaAgentWrapper - Testsigma Agent Main PID - 18360
+2023-06-16 12:41:18 DEBUG Application:removePidFile:75 - TestsigmaAgentWrapper - Testsigma Agent Main PID File Exists - C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\process.pid
+2023-06-16 12:41:18 DEBUG Application:removePidFile:77 - TestsigmaAgentWrapper - Testsigma Agent Main PID File C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\process.pid Deleted - true
+2023-06-16 12:41:18 INFO  Application:start:47 - TestsigmaAgentWrapper - Releasing Lock On Testsigma Agent Lock File...
+2023-06-16 12:41:18 INFO  Application:start:52 - TestsigmaAgentWrapper - Testsigma Agent Lock File C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\lock.txt Deleted true
+2023-06-16 12:41:18 INFO  Application:start:61 - TestsigmaAgentWrapper - -------------------- Testsigma Agent - STOPPED -------------------
+2023-06-16 12:42:10 INFO  Application:start:29 - main - -------------------- Testsigma Agent - START -------------------
+2023-06-16 12:42:10 INFO  Application:start:33 - main - Lock File Location: C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\lock.txt
+2023-06-16 12:42:10 INFO  Application:start:34 - main - PID File Location: C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\process.pid
+2023-06-16 12:42:10 DEBUG Application:removePidFile:79 - TestsigmaAgentWrapper - Testsigma Agent Main PID File Doesn't Exists - C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\process.pid
+2023-06-16 12:42:10 INFO  Application:createPidFile:68 - TestsigmaAgentWrapper - Testsigma Agent Main PID - 20980
+2023-06-16 12:42:22 DEBUG Application:removePidFile:75 - TestsigmaAgentWrapper - Testsigma Agent Main PID File Exists - C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\process.pid
+2023-06-16 12:42:22 DEBUG Application:removePidFile:77 - TestsigmaAgentWrapper - Testsigma Agent Main PID File C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\process.pid Deleted - true
+2023-06-16 12:42:22 INFO  Application:start:47 - TestsigmaAgentWrapper - Releasing Lock On Testsigma Agent Lock File...
+2023-06-16 12:42:22 INFO  Application:start:52 - TestsigmaAgentWrapper - Testsigma Agent Lock File C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\lock.txt Deleted true
+2023-06-16 12:42:22 INFO  Application:start:61 - TestsigmaAgentWrapper - -------------------- Testsigma Agent - STOPPED -------------------
+2023-06-16 12:47:52 INFO  Application:start:29 - main - -------------------- Testsigma Agent - START -------------------
+2023-06-16 12:47:52 INFO  Application:start:33 - main - Lock File Location: C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\lock.txt
+2023-06-16 12:47:52 INFO  Application:start:34 - main - PID File Location: C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\process.pid
+2023-06-16 12:47:52 DEBUG Application:removePidFile:79 - TestsigmaAgentWrapper - Testsigma Agent Main PID File Doesn't Exists - C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\process.pid
+2023-06-16 12:47:52 INFO  Application:createPidFile:68 - TestsigmaAgentWrapper - Testsigma Agent Main PID - 23236
+2023-06-16 12:48:04 DEBUG Application:removePidFile:75 - TestsigmaAgentWrapper - Testsigma Agent Main PID File Exists - C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\process.pid
+2023-06-16 12:48:04 DEBUG Application:removePidFile:77 - TestsigmaAgentWrapper - Testsigma Agent Main PID File C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\process.pid Deleted - true
+2023-06-16 12:48:04 INFO  Application:start:47 - TestsigmaAgentWrapper - Releasing Lock On Testsigma Agent Lock File...
+2023-06-16 12:48:04 INFO  Application:start:52 - TestsigmaAgentWrapper - Testsigma Agent Lock File C:\Users\Cloud Analogy\AppData\Roaming\Testsigma\agent\lock.txt Deleted true
+2023-06-16 12:48:04 INFO  Application:start:61 - TestsigmaAgentWrapper - -------------------- Testsigma Agent - STOPPED -------------------
